@@ -9,37 +9,37 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
-  featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  siteName: 'হাসি',
+  tagline: 'সুস্থতায় হাসি ফিরে আসুক',
+  featureImage: '/uploads/feature-image.svg',
+  logo: '/uploads/hasi-logo.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
     {
-      name: 'About',
-      link: '/about'
+      name: 'হোম',
+      link: 'https://hasi1.netlify.app/'
     },
+    // {
+    //   name: 'Contact',
+    //   link: '/contact'
+    // },
     {
-      name: 'Contact',
-      link: '/contact'
-    },
-    {
-      name: 'Categories',
+      name: 'ক্যাটাগরি',
       link: '/categories'
     },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
-    }
+    // {
+    //   name: 'Github Repo',
+    //   link: 'https://github.com/danielkellyio/awake-template',
+    //   target: '_blank'
+    // },
+    // {
+    //   name: 'Awake+ Premium',
+    //   link: 'https://awake-premium-lp.netlify.com/',
+    //   target: '_blank'
+    // }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
@@ -66,7 +66,7 @@ export default {
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: false,
     heading: 'Subscribe to Our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
