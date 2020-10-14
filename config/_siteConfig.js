@@ -11,8 +11,8 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'হাসি',
   tagline: 'সুস্থতায় হাসি ফিরে আসুক',
-  featureImage: '/uploads/feature-image.svg',
-  logo: '/uploads/hasi-logo.png', // 'logo-component', // or '/logo.svg' for regular image
+  featureImage: '/uploads/home-hero.jpg',
+  logo: '/hasi-logo.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
@@ -29,7 +29,7 @@ export default {
     {
       name: 'ক্যাটাগরি',
       link: '/categories'
-    },
+    }
     // {
     //   name: 'Github Repo',
     //   link: 'https://github.com/danielkellyio/awake-template',
@@ -42,7 +42,7 @@ export default {
     // }
   ],
   hero: {
-    theme: 'dark' // options: mist, light, dark
+    theme: 'light' // options: mist, light, dark
   },
 
   // Main Layout/Style
